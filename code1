@@ -1,0 +1,20 @@
+ public class Decisions
+{
+	public static void main(String[] args) 
+	{ 
+	int number;
+  number=(int)(Math.random()*10);
+System.out.println(“Randomly generated number is: ”+ number);
+if(number%2==-0)
+{
+	number=number/2;
+  System.out.println(“Number was even, and it becomes: “ + number);
+}
+Else
+{
+	number=number*3;
+	System.out.println(“Number was odd, and it becomes: “ + number);
+}
+System.out.println(“game over!”);
+}
+}
